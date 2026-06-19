@@ -28,7 +28,8 @@ public class Main {
              case 2:loginStudent();break;
              case 3:deleteStudent();break;
              case 4:updateStudent();break;
-             case 5: con.close();
+             case 5:showallStudent();break;
+             case 6: con.close();
              System.out.println("exited");
              return;
              default:
